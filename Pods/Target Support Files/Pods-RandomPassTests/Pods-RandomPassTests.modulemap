@@ -1,6 +1,0 @@
-module Pods_RandomPassTests {
-  umbrella header "Pods-RandomPassTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

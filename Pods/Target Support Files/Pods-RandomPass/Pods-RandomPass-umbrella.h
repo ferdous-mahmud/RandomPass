@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RandomPassTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RandomPassTestsVersionString[];
+FOUNDATION_EXPORT double Pods_RandomPassVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RandomPassVersionString[];
 

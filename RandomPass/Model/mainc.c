@@ -4,7 +4,6 @@
 //
 //  Created by Ferdous Mahmud Akash on 10/15/21.
 //
-
 #include "mainc.h"
 
 #include <stdio.h>
@@ -13,7 +12,6 @@
 
 #define MIN_CHAR 1
 #define BUF_SIZE 1024
-
 
 // Function to randomly generates password
 const char* randomPasswordGeneration(int N)

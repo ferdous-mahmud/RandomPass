@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SCLAlertView
 
 class ViewController: UIViewController {
     
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
     
     @IBAction func copyButtonGotPressed(_ sender: UIButton) {
         UIPasteboard.general.string = self.passField.text
-        //SCLAlertView().showSuccess("Copied", subTitle: "Password copied to clipboard")
+        SCLAlertView().showSuccess("Copied", subTitle: "Password copied to clipboard")
     }
     
     @IBAction func passLengthSlider(_ sender: UISlider) {
