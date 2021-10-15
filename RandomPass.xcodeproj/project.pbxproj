@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C29CD4227194478002BF5B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CD4127194478002BF5B5 /* AppDelegate.swift */; };
+		0C29CD4427194478002BF5B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CD4327194478002BF5B5 /* SceneDelegate.swift */; };
+		0C29CD4B27194479002BF5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CD4A27194479002BF5B5 /* Assets.xcassets */; };
+		0C29CD4E27194479002BF5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CD4C27194479002BF5B5 /* LaunchScreen.storyboard */; };
+		0C29CD5927194479002BF5B5 /* RandomPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CD5827194479002BF5B5 /* RandomPassTests.swift */; };
+		0C29CD6327194479002BF5B5 /* RandomPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CD6227194479002BF5B5 /* RandomPassUITests.swift */; };
+		0C29CD6527194479002BF5B5 /* RandomPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CD6427194479002BF5B5 /* RandomPassUITestsLaunchTests.swift */; };
+		0C6EF21D271947160058B147 /* mainc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EF21C271947160058B147 /* mainc.c */; };
+		0C6EF220271947EF0058B147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6EF21E271947EF0058B147 /* Main.storyboard */; };
+		0C6EF2222719481F0058B147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EF2212719481F0058B147 /* ViewController.swift */; };
+		796BF819FBEEB3F38A4DF0B0 /* libPods-RandomPass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D21AD613E73C3F56F8FA5AB3 /* libPods-RandomPass.a */; };
+		BEDA9DA8D81E441D447AAA7A /* libPods-RandomPass-RandomPassUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F48C708C0D0C5D13B3BF4D2 /* libPods-RandomPass-RandomPassUITests.a */; };
+		C08099835C88E1489F7E825D /* libPods-RandomPassTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 522949C2008DA5C51146016B /* libPods-RandomPassTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C29CD5527194479002BF5B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C29CD3627194478002BF5B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C29CD3D27194478002BF5B5;
+			remoteInfo = RandomPass;
+		};
+		0C29CD5F27194479002BF5B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C29CD3627194478002BF5B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C29CD3D27194478002BF5B5;
+			remoteInfo = RandomPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C29CD3E27194478002BF5B5 /* RandomPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C29CD4127194478002BF5B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C29CD4327194478002BF5B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0C29CD4A27194479002BF5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C29CD4D27194479002BF5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C29CD4F27194479002BF5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C29CD5427194479002BF5B5 /* RandomPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C29CD5827194479002BF5B5 /* RandomPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPassTests.swift; sourceTree = "<group>"; };
+		0C29CD5E27194479002BF5B5 /* RandomPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C29CD6227194479002BF5B5 /* RandomPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPassUITests.swift; sourceTree = "<group>"; };
+		0C29CD6427194479002BF5B5 /* RandomPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C6EF21A271947160058B147 /* RandomPass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPass-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C6EF21B271947160058B147 /* mainc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainc.h; sourceTree = "<group>"; };
+		0C6EF21C271947160058B147 /* mainc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mainc.c; sourceTree = "<group>"; };
+		0C6EF21F271947EF0058B147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/cppTest/cppTest/View/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C6EF2212719481F0058B147 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F9F93410042101B25A02993 /* Pods-RandomPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPass.release.xcconfig"; path = "Target Support Files/Pods-RandomPass/Pods-RandomPass.release.xcconfig"; sourceTree = "<group>"; };
+		2F48C708C0D0C5D13B3BF4D2 /* libPods-RandomPass-RandomPassUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RandomPass-RandomPassUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A16D681A6BA81F11A66F0C /* Pods-RandomPass-RandomPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPass-RandomPassUITests.release.xcconfig"; path = "Target Support Files/Pods-RandomPass-RandomPassUITests/Pods-RandomPass-RandomPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		522949C2008DA5C51146016B /* libPods-RandomPassTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RandomPassTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0A828A75CC3469918FDCB7 /* Pods-RandomPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPassTests.debug.xcconfig"; path = "Target Support Files/Pods-RandomPassTests/Pods-RandomPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5CD97D964384809AA75B01 /* Pods-RandomPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPassTests.release.xcconfig"; path = "Target Support Files/Pods-RandomPassTests/Pods-RandomPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		D21AD613E73C3F56F8FA5AB3 /* libPods-RandomPass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RandomPass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E868CF7B075022A55F03BEDD /* Pods-RandomPass-RandomPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPass-RandomPassUITests.debug.xcconfig"; path = "Target Support Files/Pods-RandomPass-RandomPassUITests/Pods-RandomPass-RandomPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB74E8BF26E87C00B58744A /* Pods-RandomPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPass.debug.xcconfig"; path = "Target Support Files/Pods-RandomPass/Pods-RandomPass.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C29CD3B27194478002BF5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796BF819FBEEB3F38A4DF0B0 /* libPods-RandomPass.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C29CD5127194479002BF5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08099835C88E1489F7E825D /* libPods-RandomPassTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C29CD5B27194479002BF5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDA9DA8D81E441D447AAA7A /* libPods-RandomPass-RandomPassUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C29CD3527194478002BF5B5 = {
+			isa = PBXGroup;
+			children = (
+				0C29CD4027194478002BF5B5 /* RandomPass */,
+				0C29CD5727194479002BF5B5 /* RandomPassTests */,
+				0C29CD6127194479002BF5B5 /* RandomPassUITests */,
+				0C29CD3F27194478002BF5B5 /* Products */,
+				E368EF358FF6DF98A34A360A /* Pods */,
+				86687AEF27A5E8913217284B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C29CD3F27194478002BF5B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CD3E27194478002BF5B5 /* RandomPass.app */,
+				0C29CD5427194479002BF5B5 /* RandomPassTests.xctest */,
+				0C29CD5E27194479002BF5B5 /* RandomPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C29CD4027194478002BF5B5 /* RandomPass */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EF219271946EF0058B147 /* Model */,
+				0C6EF218271946E00058B147 /* View */,
+				0C6EF217271946CE0058B147 /* Controller */,
+				0C29CD4127194478002BF5B5 /* AppDelegate.swift */,
+				0C6EF2212719481F0058B147 /* ViewController.swift */,
+				0C29CD4327194478002BF5B5 /* SceneDelegate.swift */,
+				0C29CD4A27194479002BF5B5 /* Assets.xcassets */,
+				0C29CD4C27194479002BF5B5 /* LaunchScreen.storyboard */,
+				0C29CD4F27194479002BF5B5 /* Info.plist */,
+			);
+			path = RandomPass;
+			sourceTree = "<group>";
+		};
+		0C29CD5727194479002BF5B5 /* RandomPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CD5827194479002BF5B5 /* RandomPassTests.swift */,
+			);
+			path = RandomPassTests;
+			sourceTree = "<group>";
+		};
+		0C29CD6127194479002BF5B5 /* RandomPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CD6227194479002BF5B5 /* RandomPassUITests.swift */,
+				0C29CD6427194479002BF5B5 /* RandomPassUITestsLaunchTests.swift */,
+			);
+			path = RandomPassUITests;
+			sourceTree = "<group>";
+		};
+		0C6EF217271946CE0058B147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C6EF218271946E00058B147 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EF21E271947EF0058B147 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C6EF219271946EF0058B147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EF21B271947160058B147 /* mainc.h */,
+				0C6EF21C271947160058B147 /* mainc.c */,
+				0C6EF21A271947160058B147 /* RandomPass-Bridging-Header.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86687AEF27A5E8913217284B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21AD613E73C3F56F8FA5AB3 /* libPods-RandomPass.a */,
+				2F48C708C0D0C5D13B3BF4D2 /* libPods-RandomPass-RandomPassUITests.a */,
+				522949C2008DA5C51146016B /* libPods-RandomPassTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E368EF358FF6DF98A34A360A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFB74E8BF26E87C00B58744A /* Pods-RandomPass.debug.xcconfig */,
+				0F9F93410042101B25A02993 /* Pods-RandomPass.release.xcconfig */,
+				E868CF7B075022A55F03BEDD /* Pods-RandomPass-RandomPassUITests.debug.xcconfig */,
+				38A16D681A6BA81F11A66F0C /* Pods-RandomPass-RandomPassUITests.release.xcconfig */,
+				9C0A828A75CC3469918FDCB7 /* Pods-RandomPassTests.debug.xcconfig */,
+				BD5CD97D964384809AA75B01 /* Pods-RandomPassTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C29CD3D27194478002BF5B5 /* RandomPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C29CD6827194479002BF5B5 /* Build configuration list for PBXNativeTarget "RandomPass" */;
+			buildPhases = (
+				87AD8B4F0677EC86E869ADA5 /* [CP] Check Pods Manifest.lock */,
+				0C29CD3A27194478002BF5B5 /* Sources */,
+				0C29CD3B27194478002BF5B5 /* Frameworks */,
+				0C29CD3C27194478002BF5B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomPass;
+			productName = RandomPass;
+			productReference = 0C29CD3E27194478002BF5B5 /* RandomPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C29CD5327194479002BF5B5 /* RandomPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C29CD6B27194479002BF5B5 /* Build configuration list for PBXNativeTarget "RandomPassTests" */;
+			buildPhases = (
+				3D3C5717254E987A4A2BF033 /* [CP] Check Pods Manifest.lock */,
+				0C29CD5027194479002BF5B5 /* Sources */,
+				0C29CD5127194479002BF5B5 /* Frameworks */,
+				0C29CD5227194479002BF5B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C29CD5627194479002BF5B5 /* PBXTargetDependency */,
+			);
+			name = RandomPassTests;
+			productName = RandomPassTests;
+			productReference = 0C29CD5427194479002BF5B5 /* RandomPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C29CD5D27194479002BF5B5 /* RandomPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C29CD6E27194479002BF5B5 /* Build configuration list for PBXNativeTarget "RandomPassUITests" */;
+			buildPhases = (
+				D1F1F38232605997D2770735 /* [CP] Check Pods Manifest.lock */,
+				0C29CD5A27194479002BF5B5 /* Sources */,
+				0C29CD5B27194479002BF5B5 /* Frameworks */,
+				0C29CD5C27194479002BF5B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C29CD6027194479002BF5B5 /* PBXTargetDependency */,
+			);
+			name = RandomPassUITests;
+			productName = RandomPassUITests;
+			productReference = 0C29CD5E27194479002BF5B5 /* RandomPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C29CD3627194478002BF5B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0C29CD3D27194478002BF5B5 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					0C29CD5327194479002BF5B5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0C29CD3D27194478002BF5B5;
+					};
+					0C29CD5D27194479002BF5B5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0C29CD3D27194478002BF5B5;
+					};
+				};
+			};
+			buildConfigurationList = 0C29CD3927194478002BF5B5 /* Build configuration list for PBXProject "RandomPass" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C29CD3527194478002BF5B5;
+			productRefGroup = 0C29CD3F27194478002BF5B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C29CD3D27194478002BF5B5 /* RandomPass */,
+				0C29CD5327194479002BF5B5 /* RandomPassTests */,
+				0C29CD5D27194479002BF5B5 /* RandomPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C29CD3C27194478002BF5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6EF220271947EF0058B147 /* Main.storyboard in Resources */,
+				0C29CD4E27194479002BF5B5 /* LaunchScreen.storyboard in Resources */,
+				0C29CD4B27194479002BF5B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C29CD5227194479002BF5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C29CD5C27194479002BF5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3C5717254E987A4A2BF033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AD8B4F0677EC86E869ADA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F1F38232605997D2770735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomPass-RandomPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C29CD3A27194478002BF5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6EF2222719481F0058B147 /* ViewController.swift in Sources */,
+				0C6EF21D271947160058B147 /* mainc.c in Sources */,
+				0C29CD4227194478002BF5B5 /* AppDelegate.swift in Sources */,
+				0C29CD4427194478002BF5B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C29CD5027194479002BF5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C29CD5927194479002BF5B5 /* RandomPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C29CD5A27194479002BF5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C29CD6527194479002BF5B5 /* RandomPassUITestsLaunchTests.swift in Sources */,
+				0C29CD6327194479002BF5B5 /* RandomPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C29CD5627194479002BF5B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C29CD3D27194478002BF5B5 /* RandomPass */;
+			targetProxy = 0C29CD5527194479002BF5B5 /* PBXContainerItemProxy */;
+		};
+		0C29CD6027194479002BF5B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C29CD3D27194478002BF5B5 /* RandomPass */;
+			targetProxy = 0C29CD5F27194479002BF5B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C29CD4C27194479002BF5B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C29CD4D27194479002BF5B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C6EF21E271947EF0058B147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C6EF21F271947EF0058B147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C29CD6627194479002BF5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C29CD6727194479002BF5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C29CD6927194479002BF5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB74E8BF26E87C00B58744A /* Pods-RandomPass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RandomPass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdous.RandomPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RandomPass/Model/RandomPass-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C29CD6A27194479002BF5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9F93410042101B25A02993 /* Pods-RandomPass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RandomPass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdous.RandomPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RandomPass/Model/RandomPass-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C29CD6C27194479002BF5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0A828A75CC3469918FDCB7 /* Pods-RandomPassTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdous.RandomPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomPass.app/RandomPass";
+			};
+			name = Debug;
+		};
+		0C29CD6D27194479002BF5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5CD97D964384809AA75B01 /* Pods-RandomPassTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdous.RandomPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomPass.app/RandomPass";
+			};
+			name = Release;
+		};
+		0C29CD6F27194479002BF5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E868CF7B075022A55F03BEDD /* Pods-RandomPass-RandomPassUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdous.RandomPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RandomPass;
+			};
+			name = Debug;
+		};
+		0C29CD7027194479002BF5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A16D681A6BA81F11A66F0C /* Pods-RandomPass-RandomPassUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdous.RandomPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RandomPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C29CD3927194478002BF5B5 /* Build configuration list for PBXProject "RandomPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C29CD6627194479002BF5B5 /* Debug */,
+				0C29CD6727194479002BF5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C29CD6827194479002BF5B5 /* Build configuration list for PBXNativeTarget "RandomPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C29CD6927194479002BF5B5 /* Debug */,
+				0C29CD6A27194479002BF5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C29CD6B27194479002BF5B5 /* Build configuration list for PBXNativeTarget "RandomPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C29CD6C27194479002BF5B5 /* Debug */,
+				0C29CD6D27194479002BF5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C29CD6E27194479002BF5B5 /* Build configuration list for PBXNativeTarget "RandomPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C29CD6F27194479002BF5B5 /* Debug */,
+				0C29CD7027194479002BF5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C29CD3627194478002BF5B5 /* Project object */;
+}
