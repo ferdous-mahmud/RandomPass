@@ -1,20 +1,16 @@
 PODS:
   - SCLAlertView (0.8)
-  - SideMenu (6.5.0)
 
 DEPENDENCIES:
   - SCLAlertView (~> 0.8)
-  - SideMenu (~> 6.5)
 
 SPEC REPOS:
   trunk:
     - SCLAlertView
-    - SideMenu
 
 SPEC CHECKSUMS:
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
-  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
 
-PODFILE CHECKSUM: 83f451a01b986fa7a232a77738d5968163349603
+PODFILE CHECKSUM: fad98855b35bcd6080984f27519e491f6a011eb5
 
 COCOAPODS: 1.11.2
