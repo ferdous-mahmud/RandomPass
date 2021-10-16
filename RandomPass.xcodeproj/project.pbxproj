@@ -11,6 +11,7 @@
 		0C29CD4427194478002BF5B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CD4327194478002BF5B5 /* SceneDelegate.swift */; };
 		0C29CD4B27194479002BF5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CD4A27194479002BF5B5 /* Assets.xcassets */; };
 		0C29CD4E27194479002BF5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CD4C27194479002BF5B5 /* LaunchScreen.storyboard */; };
+		0C5359192719D07F006D16AC /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5359182719D07F006D16AC /* InfoPageViewController.swift */; };
 		0C6EF21D271947160058B147 /* mainc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EF21C271947160058B147 /* mainc.c */; };
 		0C6EF220271947EF0058B147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6EF21E271947EF0058B147 /* Main.storyboard */; };
 		0C6EF2222719481F0058B147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EF2212719481F0058B147 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		0C29CD4F27194479002BF5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C29CD5427194479002BF5B5 /* RandomPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C29CD5E27194479002BF5B5 /* RandomPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5359182719D07F006D16AC /* InfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
 		0C6EF21A271947160058B147 /* RandomPass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPass-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C6EF21B271947160058B147 /* mainc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainc.h; sourceTree = "<group>"; };
 		0C6EF21C271947160058B147 /* mainc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mainc.c; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0C6EF2212719481F0058B147 /* ViewController.swift */,
+				0C5359182719D07F006D16AC /* InfoPageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				0C6EF2222719481F0058B147 /* ViewController.swift in Sources */,
 				0C6EF21D271947160058B147 /* mainc.c in Sources */,
 				0C29CD4227194478002BF5B5 /* AppDelegate.swift in Sources */,
+				0C5359192719D07F006D16AC /* InfoPageViewController.swift in Sources */,
 				0C29CD4427194478002BF5B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

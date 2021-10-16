@@ -8,10 +8,10 @@
 import UIKit
 import SCLAlertView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
-    var passLen = 10
-
+    private var passLen = 10
+    
 
     @IBOutlet weak var passField: UITextView!
     @IBOutlet weak var passLengthCount: UITextField!
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         updateUI()
         updateDarkLightMode()
     }
+    
     
     @IBAction func generateBtnGotPressed(_ sender: UIButton) {
         updateUI()
