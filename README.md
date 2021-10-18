@@ -39,7 +39,7 @@
 - Cocoapods and the Swift Package Manager
 - How to use C & C++ with swift
 - Dark & light mode toggle
-- How to dd hyperlink on textview
+- How to add hyperlink on textview
 - Creating .iba file
 
 ---
